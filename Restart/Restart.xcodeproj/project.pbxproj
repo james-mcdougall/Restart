@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83BD8DC2AA6EF1F00733534 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BD8DB2AA6EF1F00733534 /* AudioPlayer.swift */; };
 		A8723C312AA5476D007AB58F /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8723C302AA5476D007AB58F /* RestartApp.swift */; };
 		A8723C332AA5476D007AB58F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8723C322AA5476D007AB58F /* ContentView.swift */; };
 		A8723C352AA5476F007AB58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8723C342AA5476F007AB58F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A83BD8DB2AA6EF1F00733534 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		A8723C2D2AA5476D007AB58F /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8723C302AA5476D007AB58F /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		A8723C322AA5476D007AB58F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		A8723C452AA54979007AB58F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A83BD8DB2AA6EF1F00733534 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				A8723C4A2AA54B86007AB58F /* HomeView.swift in Sources */,
 				A8723C332AA5476D007AB58F /* ContentView.swift in Sources */,
 				A8723C312AA5476D007AB58F /* RestartApp.swift in Sources */,
+				A83BD8DC2AA6EF1F00733534 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +332,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +361,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
